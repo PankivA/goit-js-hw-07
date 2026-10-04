@@ -3,8 +3,7 @@ const nameEl = document.querySelector('#name-output');
 
 inputEl.addEventListener('input', inputHandler);
 function inputHandler(e) {
-    e.preventDefault();
-    let name = 'Anonimus';
+    let name = 'Anonimous';
     if (inputEl.value.trim()) {
         name = inputEl.value.trim();
     } 
